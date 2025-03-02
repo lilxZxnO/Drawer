@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.jsonforms-control {
+  margin-bottom: 16px;
+}
+
+.jsonforms-control label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.jsonforms-control input,
+.jsonforms-control select,
+.jsonforms-control textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #d9d9d9;
+  border-radius: 2px;
+}
+
+.jsonforms-control input:focus,
+.jsonforms-control select:focus,
+.jsonforms-control textarea:focus {
+  outline: none;
+  border-color: #1890ff;
+  box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+}
+
+.validation-error {
+  color: #ff4d4f;
+  font-size: 12px;
+  margin-top: 4px;
+}
